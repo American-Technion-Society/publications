@@ -2,3 +2,5 @@
 [[redirects]]
   from = "/"
   to = "https://ats.org/publications/"
+	status = 301
+	force = true
