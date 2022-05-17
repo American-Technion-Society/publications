@@ -1,0 +1,34 @@
+{
+  "name": "ats-publications",
+  "version": "1.0.0",
+  "author": "Pavel Sanchez",
+  "repository": "https://github.com/American-Technion-Society/publications",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "echo \"Success: build complete\" && exit 0",
+    "commit": "git cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "commitlint": "^16.2.4",
+    "cross-env": "^7.0.3",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.4",
+    "prettier": "2.6.2",
+    "semantic-release": "^19.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "commitizen.config.js"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit-msg": "exec < /dev/tty && node_modules/.bin/cz --hook || true"
+    }
+  }
+}

@@ -1,17 +1,4 @@
-trailingComma: "es5"
 endOfLine: lf
 printWidth: 80
 useTabs: false
 tabWidth: 2
-semi: true
-bracketSpacing: true
-overrides:
-  - files: "*.html"
-    options:
-      printWidth: 400
-  - files: "*.js"
-    options:
-      singleQuote: true
-      jsxSingleQuote: true
-      jsxBracketSameLine: true
-      spacingbracketSpacing: true
