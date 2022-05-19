@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.1.0](https://github.com/American-Technion-Society/publications/compare/v1.0.1...v1.1.0) (2022-05-19)
+
+
+### Features
+
+* **publication:** test 3-page layout ([c5bfd27](https://github.com/American-Technion-Society/publications/commit/c5bfd27bd6b61ad5f26b8a990422fab0c7101d47))
+
 ## [1.0.1](https://github.com/American-Technion-Society/publications/compare/v1.0.0...v1.0.1) (2022-05-19)
 
 
