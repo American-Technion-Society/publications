@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/American-Technion-Society/publications/compare/v1.1.0...v1.1.1) (2022-05-20)
+
+
+### Bug Fixes
+
+* **publication:** fix spelling error ([d11ac8d](https://github.com/American-Technion-Society/publications/commit/d11ac8d43a7945305b46cde733886ddfd6f9748e))
+
 # [1.1.0](https://github.com/American-Technion-Society/publications/compare/v1.0.1...v1.1.0) (2022-05-19)
 
 
