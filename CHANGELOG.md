@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/American-Technion-Society/publications/compare/v1.1.4...v1.1.5) (2022-05-24)
+
+
+### Bug Fixes
+
+* **publication:** medium compression ([f757612](https://github.com/American-Technion-Society/publications/commit/f757612b49332ac2e4e2b89c4c0e23ab351c5b3d))
+
 ## [1.1.4](https://github.com/American-Technion-Society/publications/compare/v1.1.3...v1.1.4) (2022-05-24)
 
 
