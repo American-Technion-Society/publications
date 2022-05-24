@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/American-Technion-Society/publications/compare/v1.1.2...v1.1.3) (2022-05-24)
+
+
+### Bug Fixes
+
+* **publication:** optimize version ([0ff9a0a](https://github.com/American-Technion-Society/publications/commit/0ff9a0ade2509c1609f0dd6abdcaa2a36e3c5c5a))
+
 ## [1.1.2](https://github.com/American-Technion-Society/publications/compare/v1.1.1...v1.1.2) (2022-05-24)
 
 
