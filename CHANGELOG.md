@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/American-Technion-Society/publications/compare/v1.1.5...v1.1.6) (2022-05-24)
+
+
+### Bug Fixes
+
+* **publication:** full version ([fc2cc72](https://github.com/American-Technion-Society/publications/commit/fc2cc72a34849476d8e8b918c1526755c30652c0))
+
 ## [1.1.5](https://github.com/American-Technion-Society/publications/compare/v1.1.4...v1.1.5) (2022-05-24)
 
 
