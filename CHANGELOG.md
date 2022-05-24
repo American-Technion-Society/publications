@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/American-Technion-Society/publications/compare/v1.1.1...v1.1.2) (2022-05-24)
+
+
+### Bug Fixes
+
+* **publication:** layout error ([9d73dca](https://github.com/American-Technion-Society/publications/commit/9d73dcadb353e254e3caf204ab8b901719a0ef2c))
+
 ## [1.1.1](https://github.com/American-Technion-Society/publications/compare/v1.1.0...v1.1.1) (2022-05-20)
 
 
