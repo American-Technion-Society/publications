@@ -1,113 +1,129 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta charset="utf-8" />
-    <meta content="width=device-width,initial-scale=1" name="viewport" />
 
-    <title>ATS Publication</title>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta charset="utf-8" />
+	<meta content="width=device-width,initial-scale=1" name="viewport" />
+	<title>ATS Publication</title>
+	<link href="pflip/css/pdfflip.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="pflip/css/bookshelf.css" />
+	<script src="pflip/js/libs/jquery.min.js" type="text/javascript"></script>
+	<script src="pflip/js/bookshelf.js"></script>
+</head>
 
-    <link href="pflip/css/pdfflip.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="pflip/css/bookshelf.css" />
-
-    <script src="pflip/js/libs/jquery.min.js" type="text/javascript"></script>
-    <script src="pflip/js/bookshelf.js"></script>
-  </head>
-
-  <body>
-    <div id="bookshelf">
-      <main class="bs-container">
-        <h1 class="page-title">American Technion Society Publications</h1>
-        <section>
-          <div class="bs-shelf-image">
-            <a id="PDFF" class="_PDFF_link" source="technion-at-a-glance-brochure/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="technion-at-a-glance-brochure/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>Technion At A Glance Brochure</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF2" class="_PDFF_link" source="technion-fund-report-2020/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="technion-fund-report-2020/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>Technion Fund Report 2020</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="technion-usa-july-2020-magazine/PDF.pdf" backgroundImage="pflip/background.jpg"
-              ><img src="technion-usa-july-2020-magazine/pdf-cover.jpg" alt=""
-            /></a>
-            <div class="bs-textbox">
-              <p>Technion Usa July 2020 Magazine</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="210531-report-covid-funds/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="210531-report-covid-funds/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>Technion Usa July 2020 Magazine</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="210531-build-sustain/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="210531-build-sustain/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>Technion Usa July 2020 Magazine</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="tusa-2021/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="tusa-2021/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>TUSA 2021</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="technion-innovations/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="technion-innovations/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>Technion Innovations</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="alumni-newsletter-2021/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="alumni-newsletter-2021/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>Alumni Newsletter 2021</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="fund-report-2021/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="fund-report-2021/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>2021 Technion Fund Report</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="women-of-the-technion-2022/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="women-of-the-technion-2022/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>Women of the Technion: Changemakers for 21st Century Challenges</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="technion-viewbook/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="technion-viewbook/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>Technion Viewbook</p>
-            </div>
-          </div>
-          <div class="bs-shelf-image">
-            <a id="PDFF3" class="_PDFF_link" source="tusa-2022/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="tusa-2022/pdf-cover.jpg" alt="" /></a>
-            <div class="bs-textbox">
-              <p>Technion USA 2022</p>
-            </div>
-          </div>
-          <!-- <div class="bs-shelf-image">
+<body>
+	<div id="bookshelf">
+		<main class="bs-container">
+			<h1 class="page-title">American Technion Society Publications</h1>
+			<section>
+				<div class="bs-shelf-image">
+					<a id="PDFF" class="_PDFF_link" source="technion-at-a-glance-brochure/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="technion-at-a-glance-brochure/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>Technion At A Glance Brochure</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF2" class="_PDFF_link" source="technion-fund-report-2020/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="technion-fund-report-2020/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>Technion Fund Report 2020</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="technion-usa-july-2020-magazine/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="technion-usa-july-2020-magazine/pdf-cover.jpg"
+							alt="" /></a>
+					<div class="bs-textbox">
+						<p>Technion Usa July 2020 Magazine</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="210531-report-covid-funds/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="210531-report-covid-funds/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>Technion Usa July 2020 Magazine</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="210531-build-sustain/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="210531-build-sustain/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>Technion Usa July 2020 Magazine</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="tusa-2021/PDF.pdf" backgroundImage="pflip/background.jpg"><img
+							src="tusa-2021/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>TUSA 2021</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="technion-innovations/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="technion-innovations/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>Technion Innovations</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="alumni-newsletter-2021/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="alumni-newsletter-2021/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>Alumni Newsletter 2021</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="fund-report-2021/PDF.pdf" backgroundImage="pflip/background.jpg"><img
+							src="fund-report-2021/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>2021 Technion Fund Report</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="women-of-the-technion-2022/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="women-of-the-technion-2022/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>Women of the Technion: Changemakers for 21st Century Challenges</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="technion-viewbook/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="technion-viewbook/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>Technion Viewbook</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="tusa-2022/PDF.pdf" backgroundImage="pflip/background.jpg"><img
+							src="tusa-2022/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>Technion USA 2022</p>
+					</div>
+				</div>
+				<div class="bs-shelf-image">
+					<a id="PDFF3" class="_PDFF_link" source="fy22-annual-review/PDF.pdf"
+						backgroundImage="pflip/background.jpg"><img src="fy22-annual-review/pdf-cover.jpg" alt="" /></a>
+					<div class="bs-textbox">
+						<p>2022 Annual Review</p>
+					</div>
+				</div>
+				<!-- <div class="bs-shelf-image">
             <a id="PDFF3" class="_PDFF_link" source="test-3page/PDF.pdf" backgroundImage="pflip/background.jpg"><img src="test-3page/pdf-cover.jpg" alt="" /></a>
             <div class="bs-textbox">
               <p>Test: 3 page Layout</p>
             </div>
           </div> -->
-        </section>
-      </main>
-    </div>
-    <script>
-      $("#bookshelf").bookshelf();
-    </script>
+			</section>
+		</main>
+	</div>
+	<script>
+		$("#bookshelf").bookshelf();
+	</script>
+	<script src="pflip/js/pdfflip.js" type="text/javascript"></script>
+	<script src="settings.js" type="text/javascript"></script>
+	<script src="toc.js" type="text/javascript"></script>
+</body>
 
-    <script src="pflip/js/pdfflip.js" type="text/javascript"></script>
-    <script src="settings.js" type="text/javascript"></script>
-    <script src="toc.js" type="text/javascript"></script>
-  </body>
 </html>
