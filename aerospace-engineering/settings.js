@@ -39,7 +39,7 @@ var option_PDFF = {
   singlePageMode: pdfflip.SINGLE_PAGE_MODE.BOOKLET,
   transparent: false,
   scrollWheel: true,
-  zoomRatio: 1.5,
+  zoomRatio: 2,
   maxTextureSize: 1600,
   backgroundImage: '../../pflip/background.jpg',
   backgroundColor: '#fff',
